@@ -70,6 +70,6 @@ node_modules/
 
 */**/.DS_Store
 
-*/**/.sqlite
+*/**/*.sqlite
 
 backgo/tmp
