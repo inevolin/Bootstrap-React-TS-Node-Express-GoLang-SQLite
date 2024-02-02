@@ -1,8 +1,8 @@
-# Bootstrap front- and backend (React + NodeJS/Express or Go/Gin)
+# Bootstrap front- and backend
 
  A bootstrap template and example for code for a front- and backend server.
 
- This solution uses Yarn + with React/Typescript for fronend + Jest/Supertest + NodeJS/Express/Typescript for backend (or Go/Gin) + SQLite data store. You can also use npm instead of yarn.
+ This solution uses React/Typescript for frontend + Jest/Supertest + NodeJS/Express/Typescript for backend (or Go/Gin) + SQLite data store. 
 
  Note: this repo comes with auto-linting and formatting (if you use VSCode) to enforce best-practice standards.
 
