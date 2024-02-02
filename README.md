@@ -1,6 +1,6 @@
 # Bootstrap front- and backend
 
- A bootstrap template and example for code for a front- and backend server.
+ A bootstrap template and example for code for a front- and backend server with JWT auth and CRUD operations.
 
  This solution uses React/Typescript for frontend + Jest/Supertest + NodeJS/Express/Typescript for backend (or Go/Gin) + SQLite data store. 
 
