@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "command": "yarn",
+  "isBackground": false,
+  "type": "shell",
+  "echoCommand": true,
+  "tasks": [
+    {
+      "label": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": ["build server"]
+    },
+    {
+      "label": "build server",
+      "args": ["run", "build"]
+    }
+  ]
+}

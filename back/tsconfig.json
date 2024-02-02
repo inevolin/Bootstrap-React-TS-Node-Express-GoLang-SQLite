@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "baseUrl": ".",
+    "incremental": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "lib": [
+      "ES2022"
+    ],
+    "types": ["jest", "node"],
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": false,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUncheckedIndexedAccess": false, // wait for better support
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "noErrorTruncation": true
+  },
+  "exclude": ["node_modules"]
+}
